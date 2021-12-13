@@ -17,7 +17,7 @@ public class CleanQueue {
         sqs.purgeQueue(queueRequest);
     }
 
-    public static void main (String[] args) {
+    public static void main (String[]... args) {
         SqsClient sqsClient = SqsClient.builder()
                 .region(Region.US_WEST_1)
                 .build();

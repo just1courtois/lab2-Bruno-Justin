@@ -194,6 +194,10 @@ public class Selection extends JFrame {
 
                       DeleteQueue.main();
                       break;
+            case "Clean Queue":
+
+                      CleanQueue.main();
+                      break;
             default:
                 System.out.println("Error");
                 break;
