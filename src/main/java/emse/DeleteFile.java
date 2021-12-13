@@ -28,6 +28,7 @@ public class DeleteFile {
         bucket = input.nextLine();  // Read user input
         input.close();
         deleteFile(s3, bucket, key);
+        Selection.main();
 
     }
 

@@ -42,6 +42,6 @@ public class DeleteQueue {
         name = input.nextLine();  // Read user input
         input.close();
         deleteQueue(sqsClient, name);
-
+        Selection.main();
     }
 }

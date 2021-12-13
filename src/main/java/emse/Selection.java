@@ -32,6 +32,7 @@ public class Selection extends JFrame {
         JRadioButton deleteFile = new JRadioButton("Delete File");
         JRadioButton downloadFile = new JRadioButton("Download File");
         JRadioButton deleteQueue = new JRadioButton("Delete Queue");
+        JRadioButton cleanQueue = new JRadioButton("Clean Queue");
 
         JPanel pnlPreview = new JPanel();
         JButton okButton = new JButton("ok");
@@ -52,6 +53,7 @@ public class Selection extends JFrame {
         bgroup.add(deleteFile);
         bgroup.add(downloadFile);
         bgroup.add(deleteQueue);
+        bgroup.add(cleanQueue);
         bgroup.add(okButton);
         
         
@@ -86,6 +88,8 @@ public class Selection extends JFrame {
         downloadFile.setActionCommand("Download File");
         radioPanel.add(deleteQueue);
         deleteQueue.setActionCommand("Delete Queue");
+        radioPanel.add(cleanQueue);
+        cleanQueue.setActionCommand("Clean Queue");
 
         okButton.setVisible(true);
         radioPanel.add(okButton);

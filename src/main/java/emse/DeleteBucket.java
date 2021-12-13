@@ -32,6 +32,7 @@ public class DeleteBucket {
         bucket = input.nextLine();  // Read user input
         input.close();
         deleteBucket(s3, bucket);
+        Selection.main();
 
     }
 

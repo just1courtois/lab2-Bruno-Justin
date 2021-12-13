@@ -62,7 +62,7 @@ public class DownloadFile {
         bucket = input.nextLine();  // Read user input
         input.close();
         downloadFile(s3, bucket, key);
-
+        Selection.main();
     }
 
 }
